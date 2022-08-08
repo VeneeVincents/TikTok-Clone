@@ -49,6 +49,10 @@ export const topics = [
     name: 'money talk',
     icon: <GiMoneyStack />,
   },
+   {
+    name: 'mindset',
+    icon: <GiSpartanHelmet />,
+  },
   {
     name: 'Exercise',
     icon: <GiWeightLiftingUp />,
