@@ -1,5 +1,5 @@
 import { BsCode, BsEmojiSunglasses } from 'react-icons/bs';
-import { GiCakeSlice, GiGalaxy, GiLoveSong, GiMoneyStack, GiLipstick, GiWeightLiftingUp } from 'react-icons/gi';
+import { GiCakeSlice, GiGalaxy, GiLoveSong, GiMoneyStack, GiLipstick, GiWeightLiftingUp, GiSpartanHelmet } from 'react-icons/gi';
 import { FaPaw, FaMedal, FaPodcast, FaGamepad } from 'react-icons/fa';
 import { BiMoviePlay } from 'react-icons/bi';
 
@@ -49,13 +49,13 @@ export const topics = [
     name: 'money talk',
     icon: <GiMoneyStack />,
   },
-   {
-    name: 'mindset',
-    icon: <GiSpartanHelmet />,
-  },
   {
     name: 'Exercise',
     icon: <GiWeightLiftingUp />,
+  },
+  {
+    name: 'mindset',
+    icon: <GiSpartanHelmet />,
   },
   {
     name: 'podcasts',
