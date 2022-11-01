@@ -1,7 +1,9 @@
 import { BsCode, BsEmojiSunglasses } from 'react-icons/bs';
-import { GiCakeSlice, GiGalaxy, GiLoveSong, GiMoneyStack, GiLipstick, GiWeightLiftingUp, GiSpartanHelmet } from 'react-icons/gi';
+import { GiCakeSlice, GiGalaxy, GiRobotLeg, GiLoveSong, GiMoneyStack,GiBasketballBall, GiLipstick, GiWeightLiftingUp } from 'react-icons/gi';
 import { FaPaw, FaMedal, FaPodcast, FaGamepad } from 'react-icons/fa';
-import { BiMoviePlay } from 'react-icons/bi';
+
+import { BiMoviePlay, BiFootball } from 'react-icons/bi';
+
 
 
 export const topics = [
@@ -26,16 +28,24 @@ export const topics = [
     icon: <GiGalaxy />,
   },
   {
-    name: 'beauty',
+    name: 'beauty & fashion',
     icon: <GiLipstick />,
   },
   {
-    name: 'animals',
+    name: 'animals & pets',
     icon: <FaPaw />,
   },
   {
     name: 'sports',
     icon: <FaMedal />,
+  },
+  {
+    name: 'football',
+    icon: <BiFootball />,
+  },
+  {
+    name: 'basketball',
+    icon: <GiBasketballBall />,
   },
   {
     name: 'trailers',
@@ -54,8 +64,8 @@ export const topics = [
     icon: <GiWeightLiftingUp />,
   },
   {
-    name: 'mindset',
-    icon: <GiSpartanHelmet />,
+    name: 'technology',
+    icon: <GiRobotLeg />,
   },
   {
     name: 'podcasts',
