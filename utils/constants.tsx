@@ -2,6 +2,7 @@ import { BsCode, BsEmojiSunglasses } from 'react-icons/bs';
 import { GiCakeSlice, GiGalaxy, GiRobotLeg, GiLoveSong, GiMoneyStack,GiBasketballBall, GiLipstick, GiWeightLiftingUp } from 'react-icons/gi';
 import { FaPaw, FaMedal, FaPodcast, FaGamepad } from 'react-icons/fa';
 import { FcNews } from 'react-icons/fc';
+import { SiJordan } from 'react-icons/si';
 
 import { BiMoviePlay, BiFootball } from 'react-icons/bi';
 
@@ -30,7 +31,7 @@ export const topics = [
   },
   {
     name: 'beauty & fashion',
-    icon: <GiLipstick />,
+    icon: <SiJordan />,
   },
   {
     name: 'animals & pets',
