@@ -3,6 +3,7 @@ import { GiCakeSlice, GiGalaxy, GiRobotLeg, GiLoveSong, GiMoneyStack,GiBasketbal
 import { FaPaw, FaMedal, FaPodcast, FaGamepad } from 'react-icons/fa';
 import { FcNews } from 'react-icons/fc';
 import { SiJordan } from 'react-icons/si';
+import { HiUserGroup } from 'react-icons/hi';
 
 import { BiMoviePlay, BiFootball } from 'react-icons/bi';
 
@@ -76,6 +77,10 @@ export const topics = [
   {
     name: 'daily news',
     icon: <FcNews />,
+  },
+  {
+    name: 'share videos',
+    icon: <HiUserGroup />,
   },
  
 ];
